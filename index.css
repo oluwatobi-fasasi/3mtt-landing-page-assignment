@@ -51,9 +51,59 @@ nav button {
 
 .section-one {
   display: flex;
+  text-align: left;
+  margin-top: 2rem;
 }
 
+h1 {
+  font-size: 4.5rem;
+  padding-right: 10rem;
+}
+h1 span {
+  color: #f6c582;
+}
 img {
   width: 50%;
   height: 50%;
+  border-radius: 1rem;
+}
+.intro {
+  font-size: 1.2rem;
+  padding-right: 9rem;
+}
+.get-started {
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  background-color: #d67d00;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bolder;
+  margin-top: 0.5;
+}
+.section-two {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.section-two .inno,
+.section-two .busi {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.section-two .inno-p,
+.section-two .busi-p {
+  font-size: 1rem;
+  color: #cfcfcf;
+  padding-right: 4rem;
+}
+
+.innovations,
+.business {
+  /* padding-right: 5rem; */
+}
+
+.grid-container {
+  width: 800px;
 }
