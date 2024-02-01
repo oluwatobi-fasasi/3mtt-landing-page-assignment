@@ -1,7 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #000058;
   color: white;
-  padding: 0 10rem;
 }
 
 ul {
@@ -22,6 +26,8 @@ a {
   font-size: 2rem;
 }
 header {
+  margin-top: 3rem;
+  padding: 0 10rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -50,12 +56,14 @@ nav button {
 }
 
 .section-one {
+  padding: 0 10rem;
   display: flex;
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 7rem;
 }
 
 h1 {
+  margin-bottom: 1rem;
   font-size: 4.5rem;
   padding-right: 10rem;
 }
@@ -70,6 +78,7 @@ img {
 .intro {
   font-size: 1.2rem;
   padding-right: 9rem;
+  margin-bottom: 3rem;
 }
 .get-started {
   padding: 0.5rem 1rem;
@@ -82,6 +91,7 @@ img {
   margin-top: 0.5;
 }
 .section-two {
+  padding: 0 10rem;
   margin-top: 3rem;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -99,11 +109,74 @@ img {
   padding-right: 4rem;
 }
 
-.innovations,
-.business {
-  /* padding-right: 5rem; */
-}
-
 .grid-container {
   width: 800px;
+}
+
+/* Why Us section style starts here*/
+.why {
+  margin: 0;
+  width: 100%;
+  margin-top: 5rem;
+  padding-top: 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+.why h4 {
+  margin-top: 3rem;
+  color: #000058;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.why .core {
+  color: #fcb95d;
+}
+.why .features {
+  color: #ffa62b;
+}
+.why-desc {
+  padding: 0.5rem 32rem 5rem 32rem;
+  font-size: 1.2rem;
+  color: #525252;
+}
+
+.card-div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+  padding-bottom: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  row-gap: 3rem;
+}
+
+.card {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  text-align: left;
+  box-shadow: 0 5px 5px 0 rgba(4, 90, 203, 0.2),
+    0 8px 8px 0 rgba(56, 55, 55, 0.19);
+}
+
+.card-1-desc {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+.card-1-note {
+  color: grey;
+
+  padding-right: 3.5rem;
+  line-height: 1.5rem;
+}
+
+.ic1 {
+  color: red;
+  margin-bottom: 2rem;
 }
